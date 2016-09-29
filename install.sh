@@ -9,9 +9,14 @@ fi
 cp .vimrc ~/.vimrc
 cp .bash_aliases ~/.bash_aliases
 
-echo "installing vundle"
+echo "installing vundle & command-t for vim"
 sudo apt-get update -y
 sudo apt-get install ruby -y
+sudo apt-get install ruby-dev -y
+sudo apt-get install cmake -y
 sudo apt-get install vim-nox -y
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 vim +PluginInstall +qall
+cd ~/.vim/bundle/command-t/ruby/command-t/
+ruby extconf.rb
+make
