@@ -8,3 +8,7 @@ fi
 
 cp .vimrc ~/.vimrc
 cp .bash_aliases ~/.bash_aliases
+
+echo "installing vundle"
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+vim +PluginInstall +qall
