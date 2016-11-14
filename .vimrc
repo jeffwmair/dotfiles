@@ -24,3 +24,5 @@ set exrc
 
 " go from insert to normal mode with quick shortcut
 :inoremap jk <esc>
+
+set secure
