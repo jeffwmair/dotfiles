@@ -11,6 +11,7 @@ syntax on
 set tabstop=4
 set shiftwidth=4
 set omnifunc=syntaxcomplete#Complete
+set exrc
 " http://vim.wikia.com/wiki/Auto_closing_an_HTML_tag
 :iabbrev </ </<C-X><C-O>
 
