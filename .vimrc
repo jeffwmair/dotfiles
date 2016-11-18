@@ -22,6 +22,9 @@ set exrc
 :nnoremap H gT
 :nnoremap L gt
 
+" playback of something recorded into 'q'
+:nnoremap Q @q
+
 " go from insert to normal mode with quick shortcut
 :inoremap jk <esc>
 
